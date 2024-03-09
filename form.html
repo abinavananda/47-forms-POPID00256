@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>HTML Form Example</title>
+</head>
+<body>
+  <div class="form-container">
+    <h2><b>APPLICATION FORM</b></h2>
+    <form action="" method="post">
+      <label for="name">Name:</label>
+      <input class="name" type="text" id="name" name="name" placeholder="Enter your name" required>
+      <label for="email">Email:</label>
+      <input class="name" type="email" id="email" name="email" placeholder="Enter your email" required>
+      <label for="password">Password:</label>
+      <input class="name" type="password" id="password" name="password" required>
+    <div class="helo">
+        Qualification : &nbsp;
+        <label for="option">
+            <input type="radio" id="option2" name="options" value="option"> 10th
+        </label>
+    
+        <label for="option">
+            <input type="radio" id="option3" name="options" value="option"> plus two
+        </label>
+    </div>
+    <label for="checkbox">
+        <input type="checkbox" id="checkbox" name="terms"> passed
+        <input type="checkbox" id="checkbox" name="terms"> failed
+
+    </label>
+    
+
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject">
+        <option>English</option>
+        <option>Malayalam</option>
+        <option>Hindi</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
